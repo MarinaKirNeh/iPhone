@@ -1,0 +1,1556 @@
+*,:after,:before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.header {
+	width: 100%;
+	background: url("./img/Photo.png") no-repeat rgba(239,240,242, 0.7);
+	background-size: 100% 100%;
+	padding: 10px 0px 0px 0px;
+	position: relative;
+	
+}
+.nav {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	color:#2b2c31;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.headermenu {
+	padding: 10px;
+	font-size: 16px;
+	font-family: lato, regular, sans-serif;
+	display: flex;
+	flex-direction: row;
+}
+.headermenu li {
+	padding:0px 15px 0px 10px;
+	text-decoration: none;
+	list-style: none;
+}
+.nav-menucenter {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+
+}
+.nav-menucenter__logo {
+	font-weight: bold;
+}
+ .headermenu a {
+	text-decoration: none;
+	color:#2b2c31; 
+
+}
+.headermenu-logo a {
+	text-decoration: none;
+	color: #2b2c31;
+}
+.nav-menuright__help {
+	margin-bottom: -15px;
+}
+.nav-menuright__help a {
+	color: rgba(180,180,181,0.7);
+}
+.nav-menuright__buttonApp {
+	border: 1px solid #4e7cf0;
+	color: #fff;
+	text-align: center;
+	padding: 7px 15px 7px 13px;
+	border-radius: 15px;
+	background-color: #4e7cf0;
+	box-sizing: border-box;
+	margin-top: -5px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-menuright__buttonApp:before {
+	content: "";
+	background: url("./img/Apple Icon.png") no-repeat;
+	width: 15px;
+	height: 10px;
+	padding:10px;
+}
+.nav-menuright__buttonApp a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 5px;
+}
+.h1-header{
+	font-size: 50px;
+	text-align: center;
+	padding: 20px;
+	color: #2b2b31;
+	font-family: 'Varela Round', arial;
+	display: flex;
+	justify-content: center;
+}
+.p-header {
+	padding: 20px;
+	font-size: 18px;
+	color: #8b8d92;
+	width: 35%;
+	margin: 0 auto;
+	text-align: center;
+	font-family:'lato';
+}
+.button-header {
+	padding: 10px 20px;
+	margin: 20px;
+	border: 1px solid rgba(180,180,181,0.7);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 15px;
+	background: none;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+}
+.button-header a {
+	text-decoration: none;
+	color: #2b2b30;
+	margin-left: 10px;
+}
+.button-header:before {
+	content: '';
+	background: url("./img/PlayIcon.png") no-repeat;
+	width: 10px;
+	height: 10px;
+	display: block;
+
+}
+.header-block__text{
+	display: none;
+}
+.header-foto {
+	text-align: center;
+	padding:30px 20px 0px 20px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.header-foto img {
+	width: 250px;
+	height: 300px;
+}
+
+
+.advantages,
+.protected,
+.partners,
+.newprovidence,
+.clients,
+.perfectplan {
+	width: 100%;
+	font-size: 18px;
+	color: #c9cacc;
+	box-sizing: border-box;
+	padding: 25px 25px 25px 0;
+	display: flex;
+	flex-direction: row;
+
+}
+.advantages-block {
+	width: 75%;
+	text-align: center;
+	padding: 35px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 0 auto;
+}
+.advantages-block__time,
+.advantages-block__timeobstacles {
+	width: 37%;
+	text-align: left;
+	padding:5px;
+	box-sizing: border-box;
+	margin: 10px;
+}
+.advantages-block__time img,
+.advantages-block__timeobstacles img {
+	width: 70px;
+	height: 60px;
+	padding: 10px 0 0 20px;
+}
+.advantages-block__h2 {
+	font-size: 26px;
+	font-family: 'Lato', light;
+	color: #2b2b31;
+	padding: 20px;
+	font-weight: normal;
+}
+.advantages-block__text {
+	padding: 20px;
+}
+.protected-foto {
+	width: 50%;
+}
+.protected-foto img {
+	width: 100%;
+	height: 100%;
+}
+.protected-information {
+	width: 40%;
+	padding: 30px;
+	margin: 20px;
+	box-sizing: border-box;
+}
+.protected-information__h3 {
+	font-size: 42px;
+	/*font-family: 'Varela Round', Regular;*/
+	font-weight: normal;
+	padding: 20px;
+	color: #000;
+
+}
+.protected-information__text {
+	padding:20px;
+}
+.protected-information__button {
+	padding: 20px;
+	font-size: 16px;
+	font-family: 'Lato', Regular;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+}
+.protected-information__btn {
+	color: #fff;
+	border-radius: 20px;
+	margin: 10px;
+}
+.buttoniconbtn {
+	padding: 10px 18px 10px 18px;
+	background: #4d7cf0;
+	border: none;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+
+}
+.buttoniconbtn:after {
+	content: '';
+	background: url("./img/ArrowIcon.png") no-repeat;
+	width: 15px;
+	height: 15px;
+	margin-left: 3px;
+	display: block;
+}
+.buttonbtn {
+	color: #000;
+	padding: 10px 20px;
+	border: 1px solid rgba(180,180,181,0.7);
+	text-align: center;
+	background: none;
+}
+.buttonbtn a {
+	text-decoration: none;
+	color: #000;
+}
+.buttoniconbtn a {
+	text-decoration: none;
+	color:#fff;
+	margin-right: 30px;
+}
+.protected-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+.protected-information__button--adaptive {
+	display: none;
+}
+
+.partners {
+	display: flex;
+	justify-content: flex-end;
+	padding: 25px 0 25px 25px;
+
+}
+.partners-information {
+	width:40%;
+	padding:20px 35px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box; 
+	justify-content: space-between;
+	margin: 20px;
+}
+.partners-information__h4 {
+	color: #000;
+	font-size: 42px;
+	font-family: 'Varela Round', Regular;
+	padding: 10px;
+}
+.partners-information__text {
+	padding: 10px;
+}
+.partners-information__textpartners {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px;
+}
+.partners-information__logo {
+	display: flex;
+	flex-direction: row;
+	
+}
+.partners-information__logo img {
+	padding: 10px;
+}
+
+.partners-foto img {
+	width: 100%;
+	height: 100%;
+}
+
+.Interface {
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	background: #f5f5f8;
+	padding: 25px 0 25px 0;
+	align-items: center;
+}
+.Interface-h5 {
+	font-size: 42px;
+	font-family: 'Varela Round', Regular;
+	padding: 30px;
+}
+.Interface-decor {
+	padding: 20px;
+}
+.Interface-span {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #8b8d92;
+	font-size: 12px;
+	padding: 20px;
+}
+.Interface-block__foto--card {
+	display: none;
+}
+.Interface-block__foto {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.Interface-block__foto img {
+	width: 20%;
+}
+
+.Interface-block__foto-iphone img {
+	height: 110%;
+	order: 6;
+}
+.Interface-block__foto img:nth-child(3) {
+	height: 130%;
+}
+.newprovidence {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	background: #f5f5f8;
+	position: relative;
+}
+.newprovidence-span {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #a7a8ad;
+	padding:20px 0px 0px 0px;
+	font-family: 'Varela Round', Regular;
+}
+.newprovidence-h6 {
+	font-size: 42px;
+	padding: 25px;
+	color: #3e3f4c;
+	font-family: 'Varela Round', Regular;
+
+}
+.newprovidence-inputbtn {
+	width: 410px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #cbcbce;
+	min-height: 50px;
+	border-radius: 25px;
+	box-sizing: border-box;
+	margin: 30px;
+}
+.newprovidence-input {
+	width: 220px;
+	vertical-align:middle;
+	background: none;
+	border: none;
+	outline: none;
+	-webkit-appearance:none;
+	color: #3d3f4c;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	margin-left: 15px;
+}
+
+.newprovidence-input__btn {
+	border-radius: 25px;
+	color: #fff;
+	width: 130px;
+	height: 45px;
+	display: inline-block;
+	border: none;
+	background: #8ec65d;
+	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    margin:3px 0px 3px 30px;
+    padding: 10px 25px 10px 15px;
+    box-sizing: border-box;
+     outline: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+       
+}
+.newprovidence-input__btn:after {
+	content: '';
+    background: url(./img/ArrowIcon.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: block;
+
+}
+.newprovidence-button {
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	padding: 10px 35px 10px 30px;
+	font-family: 'Lato', sans-serif;
+	 display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    margin: 20px 0px 30px 0px;
+
+}
+.newprovidence-button:before {
+	content: "";
+    background: url("./img/Apple Icon.png") no-repeat;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: block;	
+    margin-right: 15px;
+
+}
+.newprovidence-button a {
+	text-decoration: none;
+	color: #fff;
+}
+.newprovidence-button__text {
+	font-size: 23px;
+}
+.clients {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 35px;
+}
+.clients-foto {
+	display: flex;
+	flex-direction: row;
+
+}
+.clients-headline {
+	color: #26272d;
+	font-size: 32px;
+	padding: 25px;
+	font-family: 'Lato', sans-serif;
+	
+}
+.clients-information {
+	color: #8c8f94;
+	padding: 20px;
+	width: 30%;
+	text-align: center;
+}
+.clients-raiting {
+	padding: 20px;
+}
+.clients-name_people {
+	color: #26272d;
+	text-transform: uppercase;
+	padding:20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.clients-foto__women1,
+.clients-foto__women2 {
+	opacity: 0.5;
+	padding:40px;
+}
+.clients-foto__men {
+	padding:20px;
+}
+.perfectplan {
+	justify-content: center;
+	align-items: center;
+	background: #f4f4f5;
+	padding: 30px;
+	display: flex;
+	justify-content: row;
+}
+.perfectplan-information {
+	text-align: left;
+	padding: 30px;
+	width: 23%;
+}
+.perfectplan-information__headline {
+	padding: 30px 0px 30px 0px;
+	color: #4c4d52;
+	font-size: 32px;
+	font-family: 'Lato', sans-serif;
+}
+.perfectplan-information__signarure {
+	padding: 20px 0px 10px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	color: #26272d;
+}
+.perfectplan-information__btn {
+	width: 180px;
+	min-height: 44px;
+	border: 1px solid #cbcbce;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	color: #a2a3a5;
+	margin: 5px 0px 20px 0px;
+	box-sizing: border-box;
+}
+.perfectplan-information__btn a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #a2a3a5;
+	padding: 10px 15px;
+
+}
+.perfectplan-information__btn--individual:hover {
+	background: #fff;
+	color: #404346;
+	padding: 10px 15px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(208,208,210,.6);
+	border-radius: 25px;
+	font-weight: bold;
+
+}
+.perfectplan-information__text {
+	padding: 20px 0 20px 0;
+	font-size: 20px;
+	width: 95%;
+}
+.perfectplan-information__span {
+	padding: 10px 0 10px 0;
+	font-size: 12px;
+}
+.perfectplan-information__span a {
+	color: #4c93f4;
+}
+.perfectplan-services {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 35px;
+	
+}
+
+.perfectplan-servieces__pro,
+.perfectplan-services__starter {
+	margin: 10px;
+	background: #ebebed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 46%;
+	padding: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.perfectplan-services__starter--headline {
+	font-size: 32px;
+	padding: 15px;
+	color: #929396;
+}
+.perfectplan-services__starter--button {
+	border: 1px solid #c4c4c6;
+	font-size: 11px;
+	padding: 5px 10px;
+	background: none;
+	border-radius: 10px;
+	color: #333439;
+	text-decoration: none;
+	color: #8c8f94;
+}
+
+.perfectplan-services__starter--text {
+	padding: 20px;
+	color: #a8abae;
+	text-align: center;
+	width: 80%;
+}
+.perfectplan-services__starter--points {
+	padding: 10px;
+	list-style: none;
+	font-size: 16px;
+}
+.perfectplan-services__starter--points li {
+	padding: 10px;
+	color: #26292c;
+	text-align: center;
+}
+.perfectplan-services__starter--pointsli {
+	position: relative;
+}
+.perfectplan-services__starter--pointsli:after {
+	content: "";
+	background: url("./img/marcer.png") no-repeat;
+	width: 15px;
+	height: 15px;
+	top: 10px;
+	left: -10px;
+	position: absolute;
+}
+.perfectplan-services__starter--btn {
+	color: #267df4;
+	background: none;
+	border: 1px solid #267df4;
+	font-size: 16px;
+	padding: 10px 30px;
+	margin: 20px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+
+.perfectplan-services__starter:hover,
+.perfectplan-servieces__pro:hover {
+	background: #fff;
+	height: 450px;
+	width: 48%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.perfectplan-servieces__starter:hover .perfectplan-services__starter--btn {
+	color: #fff;
+	background: #267df4;
+}
+.newsletters {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0 30px 0;
+	background: #fff;
+	font-family: 'Lato', sans-serif;
+
+}
+.newsletters-headline {
+	font-size: 32px;
+	padding: 20px;
+}
+.newsletters-signarure {
+	font-size: 12px;
+	color: #9a9da1;
+	padding: 15px;
+}
+.newsletters-socialnetworks {
+	display: flex;
+	flex-direction: row;
+	padding: 30px 0 30px 0;
+	justify-content: space-between;
+	width: 60%;
+}
+.newsletters-socialnetworks__iconk {
+	width: 25%;
+}
+.newsletters-socialnetworks__iconk--text {
+	padding: 15px 0 20px 5px;
+	font-size: 14px;
+	text-align: left;
+	color: #8c8f94;
+	width: 85%;
+}
+.newsletters-socialnetworks__iconk--btn {
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	padding: 10px 10px 10px 20px;
+	font-family: 'Lato', sans-serif;
+	 display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0px 30px 0px;
+    width: 70%;
+
+}
+.newsletters-socialnetworks__iconk--btn:before {
+	content: "";
+    background: url("./img/Apple Icon.png") no-repeat;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: block;	
+    margin-right: 10px;
+
+}
+.newsletters-socialnetworks__iconk--btn a {
+	text-decoration: none;
+	color: #fff;
+}
+.newsletters-socialnetworks__iconk--networks {
+	display: flex;
+	flex-direction: row;
+	padding: 10px 10px 0 0;
+}
+.newsletters-socialnetworks__iconk--networks a {
+	padding: 10px;
+}
+.newsletters-socialnetworks__other {
+	width: 55%;
+	color: #8c8f94;
+}
+.newsletters-socialnetworks__other--questions {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.newsletters-socialnetworks__other--ul {
+	list-style: none;
+}
+.newsletters-socialnetworks__other--ul a {
+	text-decoration: none;
+	color: #8c8f94;
+}
+.newsletters-socialnetworks__other--ul li {
+	padding: 7px;
+	font-size: 12px;
+}
+.newsletters-socialnetworks__other--li {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333439;
+	
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #f4f4f4;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+
+}
+.footer-visit {
+	color:#8c8f94;
+	font-size: 14px;
+	width: 27%;
+	font-weight: bold;
+}
+.footer-visit a {
+	color: #475fe7;
+}
+.footer-logo {
+	width: 21%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+.newsletters-socialnetw--wrapper {
+	display: none;
+}
+.perfectplan-information__headline--media {
+	display: none;
+}
+.header-foto__phone img {
+	display: none;
+}
+@media (min-width:1280px) and (max-width: 1600px) {
+	.buttoniconbtn {
+    padding: 10px 18px 10px 11px;
+	}
+	.buttoniconbtn a {
+    	margin-right: 15px;
+    }
+    .Interface-block__foto--card {
+	display: none;
+	}
+	.newsletters-socialnetworks__iconk--btn {
+		font-size: 12px;
+		padding: 10px 10px 10px 20px;
+    	margin: 15px 0px 25px 0px;
+    	width: 75%;
+	}
+	.newsletters-socialnetworks__iconk--btn:before {
+		content: "";
+    	background: url("./img/Apple Icon.png") no-repeat;
+    	margin-right: 6px;
+
+	}
+	.newprovidence-button__text {
+		font-size: 18px;
+	}
+	.footer-visit{
+		width:42%;
+	}
+	
+	.footer-logo {
+		width: 30%;
+	}
+	.header-block__text {
+		display: none;
+	}
+	.perfectplan-information__headline--media {
+		display: none;
+	}
+	.protected-information__button--adaptive {
+		display: none;n
+	}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.h1-header {
+		font-size: 35px;
+	}
+	.p-header {
+		font-size: 15px;
+		width: 45%;
+	}
+	.protected-information {
+    width: 45%;
+	}
+	.protected-information__h3 {
+		font-size: 35px;
+	}
+	.protected-information__text {
+		font-size: 18px;
+	}
+	.partners-foto img {
+    	height: 100%;
+    }
+    .partners-information__h4 {
+    	font-size: 35px;
+    }
+    .partners-information__text {
+    	font-size: 16px;
+    }
+    .Interface-h5 {
+    	font-size: 35px;
+    }
+    .Interface-block__foto {
+    	display: none;
+    }
+    .Interface-block__foto img {
+    	display: none;
+    }
+    .Interface-block__foto--card {
+    	width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+    }
+    .Interface-block__foto--card img {
+    	width: 33%;
+    }
+    .Interface-block__cardleft,
+    .Interface-block__cardright {
+    	position: relative;
+    	width: 32%;
+    	perspective: 1000px;
+    	border-radius: 15px;
+    	
+    }
+    .cardleft--front {
+    	background: url("./img/Screen1.png") no-repeat;
+		border-radius: 15px;
+    	
+    }
+    .cardleft--back {
+    	background: url("./img/Screen 2.png")no-repeat;
+    	transform: rotate(180deg);
+    	border-radius: 15px;
+    }
+    .cardright--front {
+    	background: url("./img/Screen 3.png") no-repeat;
+    	border-radius: 15px;
+    }
+    .cardright--back {
+		background: url("./img/Screen 4.png") no-repeat;
+		transform: rotate(180deg);
+		border-radius: 15px;
+    }
+    .Interface-block {
+    	position: absolute;
+    	width: 100%;
+    	height: 100%;
+    	left: 0;
+    	top: 0;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	transition: 1s;
+    	backface-visibility: hidden;
+    }
+    .Interface-block__cardleft:hover .cardleft--front {
+    	transform: rotateY(180deg);
+    }
+    .Interface-block__cardleft:hover .cardleft--back {
+    	transform: rotateY(360deg);
+    }
+    .Interface-block__cardright:hover .cardright--front {
+    	transform: rotateY(180deg);
+    }
+    .Interface-block__cardright:hover .cardright--back {
+    	transform: rotateY(360deg);
+    }
+    .clients-information {
+    	width: 45%;
+    }
+    .perfectplan-services {
+    	width: 60%;
+    }
+    .perfectplan-information {
+    	width: 25%;
+    }
+    .perfectplan-services__starter--btn {
+    	padding: 10px 20px;
+    }
+    .perfectplan-information__text {
+    	font-size: 18px;
+    }
+    .perfectplan-services__starter--headline {
+   		 padding: 5px;
+   	}
+   	.perfectplan-services__starter--text {
+    	padding: 10px;
+    	width: 90%;
+    }
+    .newsletters-socialnetworks__iconk--btn {
+		font-size: 12px;
+		padding: 10px 10px 10px 15px;
+    	margin: 10px 0px 20px 0px;
+    	width: 100%;
+	}
+	.newsletters-socialnetworks__iconk--btn:before {
+		content: "";
+    	background: url("./img/Apple Icon.png") no-repeat;
+    	margin-right: 6px;
+
+	}
+	.newprovidence-button__text {
+		font-size: 16px;
+	}
+	.footer-visit{
+		width:50%;
+		font-size: 12px;
+	}
+	.footer-logo {
+		width: 35%;
+		font-size: 10px;
+	}
+	.footer-logo img {
+		width: 70%;
+
+	}
+	.header-block__text {
+		display: none;
+	}
+	.perfectplan-information__headline--media {
+		display: none;
+	}
+	.protected-information__button--adaptive {
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.nav {
+    	width: 100%;
+    	padding: 0px;
+    }
+    .headermenu {
+    	font-size: 15px;
+    }
+   .nav-menuright__buttonApp {
+    	padding: 7px 10px 7px 10px;
+	}
+	.h1-header {
+   	 	font-size: 35px;
+    	padding: 30px;
+	}
+	.header-block__text--img {
+		display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    }
+
+	.header-block__text{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.p-header {
+		display: none;
+	}
+	.button-header {
+		display: none;
+	}
+	
+	.header-block__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 50%;
+	}
+	.button-header__text {
+		padding: 10px 20px;
+		margin: 20px;
+		border: 1px solid #000;
+		text-align: center;
+		margin: 0 auto;
+		border-radius: 15px;
+		background: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	}
+	.button-header__text a {
+		text-decoration: none;
+		color: #2b2b30;
+		margin-left: 10px;
+	}
+	.p-header__text {
+		font-size: 14px;
+		width:100%;
+		padding: 20px;
+		text-align: center;
+	}
+	.button-header__text:before {
+		content: '';
+		background: url("./img/PlayIcon.png") no-repeat;
+		width: 10px;
+		height: 10px;
+		display: block;
+
+	}
+
+	.header-foto__phone {
+		text-align: center;
+		padding:30px 20px 0px 20px;
+		display: none;
+		justify-content: center;
+		width: 30%;
+	}
+	.header-foto img {
+    	width: 229px;
+   		height: 250px;
+   	}
+
+	.advantages-block {
+    	width: 100%;
+    	text-align: center;
+    	padding: 25px;
+    }
+    .protected-information {
+    	width: 45%;
+    	padding: 0px;
+    }
+	.protected-information__h3 {
+    	font-size: 35px;
+    }
+    .protected-information__text {
+    	font-size: 14px;
+    }
+    .protected-information__button {
+    	padding: 10px;
+    }
+    .buttoniconbtn {
+    	padding: 9px 10px 10px 10px; 
+	}
+	.buttoniconbtn a {
+    	margin-right: 15px;
+    }
+    .partners-information__h4 {
+    	font-size: 35px;
+    }
+    .partners-information__text {
+    	font-size: 14px;
+    }
+    .partners-foto img {
+    	height: 85%;
+    }
+    .Interface-h5 {
+    	font-size: 35px;
+    }
+    .Interface-block__foto--Screen1 ,
+    .Interface-block__foto--Screen4 {
+    	display: none;
+    }
+    .Interface-block__foto img {
+    	width: 34%;
+	}
+	.clients-headline {
+		font-size: 30px;
+	}
+	.clients-information {
+		width: 60%;
+		font-size: 16px;
+	}
+	.perfectplan {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.perfectplan-information {
+    	justify-content: center;
+    	width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    	text-align: center;
+	}
+	.perfectplan-information__headline {
+		display: none;
+	}
+	.perfectplan-information__headline--media {
+		font-size: 35px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		color: #4c4d52;
+	}
+	.perfectplan-information__btn {
+		text-align: center;
+		margin: 0 auto;
+
+	}
+	.perfectplan-information__signarure {
+		padding: 20px;
+	}
+	.perfectplan-information__text {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.newsletters-socialnetworks {
+		width: 80%;
+	}
+	.newsletters-socialnetworks__iconk--btn {
+		font-size: 12px;
+		padding: 10px 10px 10px 15px;
+    	margin: 10px 0px 20px 0px;
+    	width: 100%;
+	}
+	.newsletters-socialnetworks__iconk--btn:before {
+		content: "";
+    	background: url("./img/Apple Icon.png") no-repeat;
+    	margin-right: 6px;
+
+	}
+	.newprovidence-button__text {
+		font-size: 16px;
+	}
+	.footer {
+		width: 80%;
+	}
+	.footer-visit {
+		font-size: 12px;
+		width: 45%;
+	}
+	.footer-logo {
+		width: 40%;
+		font-size: 12px;
+	}
+	.footer-logo img {
+		width: 70%;
+	}	
+	.protected-information__button--adaptive {
+		display: none;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.nav {
+    	width: 100%;
+    	padding: 0px;
+    }
+    .headermenu-logo a {
+    	display: none;
+    }
+    .headermenu li {
+    	font-size: 12px;
+    }
+   .nav-menuright__buttonApp {
+    	padding: 7px 10px 7px 10px;
+    	font-size: 12px;
+	}
+	.nav-menuright__buttonApp:before {
+		content: "";
+		background: url("./img/Apple Icon.png") no-repeat;
+		width: 10px;
+		height: 10px;
+		padding:10px;
+	}
+	.h1-header {
+   	 	font-size: 35px;
+    	padding: 30px;
+	}
+	.header-block__text--img {
+		display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    }
+
+	.header-block__text{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.p-header {
+		display: none;
+	}
+	.button-header {
+		display: none;
+	}
+	.header-foto img {
+		display: none;
+	}
+	.header-block__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 70%;
+	}
+	.button-header__text {
+		padding: 10px 20px;
+		margin: 20px;
+		border: 1px solid #000;
+		text-align: center;
+		margin: 0 auto;
+		border-radius: 15px;
+		background: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	}
+	.button-header__text a {
+		text-decoration: none;
+		color: #2b2b30;
+		margin-left: 10px;
+	}
+	.p-header__text {
+		font-size: 15px;
+		width:100%;
+		padding: 20px;
+		text-align: center;
+	}
+	.button-header__text:before {
+		content: '';
+		background: url("./img/PlayIcon.png") no-repeat;
+		width: 10px;
+		height: 10px;
+		display: block;
+
+	}
+
+	.header-foto__phone {
+		text-align: center;
+		padding:30px 20px 0px 20px;
+		display: none;
+		justify-content: center;
+		width: 30%;
+	}
+	.header-foto__phone img {
+		width: 180px;
+		height: 250px;
+		display: flex;
+	}
+	.advantages-block {
+    	width: 100%;
+    	text-align: center;
+    	padding: 25px;
+    }
+    .advantages-block__time,
+	.advantages-block__timeobstacles {
+		width: 50%;
+		text-align: left;
+		padding:5px;
+		box-sizing: border-box;
+		margin: 10px;
+	}
+	.advantages-block__text {
+		font-size: 14px;
+	}
+	.advantages-block__h2 {
+		font-size: 20px;
+	}
+	.protected {
+		display: flex;
+		flex-direction: column;
+	}
+	.protected-wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+    .protected-information {
+    	width: 45%;
+    	padding: 0px;
+    }
+	.protected-information__h3 {
+    	font-size: 20px;
+    }
+    .protected-information__text {
+    	font-size: 14px;
+    }
+    .protected-foto {
+		width: 50%;
+	}
+	.protected-foto img {
+		width: 100%;
+		height: 80%;
+		background-size: 100px 200px;
+
+	}
+	.protected-wrapper {
+		width: 100%;
+	}
+	
+    .protected-information__button {
+    	display: none;
+    }
+    .protected-information__button--adaptive {
+    	width: 100%;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	text-align: center;
+    	
+    }
+    .buttoniconbtn {
+    	padding: 9px 10px 10px 10px; 
+	}
+	.buttoniconbtn a {
+    	margin-right: 15px;
+    }
+    .partners-information {
+    	width: 100%;
+    }
+    .partners-information__h4 {
+    	font-size: 35px;
+    	text-align: center;
+    }
+    .partners-information__logo {
+    	display: flex;
+    	flex-direction: row;
+    	text-align: center;
+    	justify-content: center;
+    }
+    .partners-information__text {
+    	font-size: 14px;
+    }
+    .partners-foto {
+    	display: none;
+    }
+  
+    .Interface-h5 {
+    	font-size: 35px;
+    }
+    .Interface-block__foto--Screen1 ,
+    .Interface-block__foto--Screen4 {
+    	display: none;
+    }
+    .Interface-block__foto img {
+    	width: 34%;
+	}
+	.clients-headline {
+		font-size: 30px;
+		text-align: center;
+	}
+	.clients-information {
+		width: 80%;
+		font-size: 16px;
+	}
+	.clients-foto {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.clients-foto__women1,
+	.clients-foto__women2 {
+		display: none;
+	}
+	.perfectplan {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.perfectplan-servieces__pro, 
+	.perfectplan-services__starter {
+		width: 80%;
+	}
+	.perfectplan-services__starter:hover,
+	.perfectplan-servieces__pro:hover {
+		background: #fff;
+		height: 450px;
+		width: 100%;
+		box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	}
+
+	.perfectplan-services {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.perfectplan-information {
+    	justify-content: center;
+    	width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    	text-align: center;
+	}
+	.perfectplan-information__headline {
+		display: none;
+	}
+	.perfectplan-information__headline--media {
+		font-size: 35px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		color: #4c4d52;
+	}
+	.perfectplan-information__btn {
+		text-align: center;
+		margin: 0 auto;
+
+	}
+	.perfectplan-information__signarure {
+		padding: 20px;
+	}
+	.perfectplan-information__text {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.newprovidence-h6 {
+		font-size: 30px;
+		text-align: center;
+	}
+	.newsletters-socialnetworks {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+
+	}
+	.newsletters-socialnetworks__iconk {
+		width: 100%;
+		padding: 25px;
+	}
+	.nav-menucenter {
+		display: flex;
+		justify-content: center;
+	}
+	.newsletters-socialnetworks__iconk--text {
+		width: 100%;
+		display: flex;
+		justify-content: left;
+	}
+	.newsletters-socialnetworks__iconk--btn {
+		font-size: 12px;
+		padding: 10px 10px 10px 15px;
+    	margin: 10px 0px 20px 0px;
+    	width: 30%;
+    	margin: 0 auto;
+	}
+	.newsletters-socialnetworks__iconk--btn:before {
+		content: "";
+    	background: url("./img/Apple Icon.png") no-repeat;
+    	margin-right: 6px;
+
+	}
+	.newsletters-socialnetworks__other {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		width: 100%;
+		padding: 25px;
+	}
+	.newprovidence-button {
+		padding: 10px 20px 10px 15px;
+	}
+	.newprovidence-button__text {
+		font-size: 14px;
+		
+	}
+	.newsletters-socialnetworks__iconk--btn {
+   		padding: 5px 10px 5px 15px;
+    	margin: 10px 0px 20px 0px;
+    	width: 35%;
+    }
+	.newsletters {
+		padding: 0;
+	}
+	.newsletters-socialnetw--wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.newsletters-socialnetw__btn-iconki {
+		display: none;
+	}
+	.footer {
+		width: 80%;
+	}
+	.footer-visit {
+		font-size: 12px;
+		width: 45%;
+	}
+	.footer-logo {
+		width: 40%;
+		font-size: 12px;
+	}
+	.footer-logo img {
+		width: 70%;
+	}	
+}
+
